@@ -132,3 +132,58 @@ Finally, we will put a button to enter the system and two links to remember the 
 
 </html>
 ```
+
+#### Password recovery page
+
+###### Let's enjoy the login above.
+###### Command or file how to recuperar.html
+
+###### The difference is very little between login.html and recuperar.html
+###### The slight changes are highlighted below and do not confirm.
+###### These are basic changes to the login template, changing some divs using the same designer base.
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Recuperar Senha</title>
+    <link rel="stylesheet" href="bibliotecas/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bibliotecas/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/sb-admin.min.css">
+</head>
+
+<body class="bg-dark">
+
+    <div class="container">
+        <div class="card card-login mx-auto mt-5">
+            <div class="card-header">Recuperar Senha</div>
+            <div class="card-body">
+                <div class="text-center md-4 mb-5">
+                    <h4>Esqueceu sua senha ?</h4>
+                    <p>Digite seu email e nós lhe enviaremos instruções sobre como redefinir sua senha</p>
+                </div>
+                <form>
+                    <form class="group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Digite seu email">
+                    </form><br>
+                    <button class="btn btn-primary btn-block">Recuperar senha</button>
+                    <div class="text-center">
+                        <a href="#" class="d-block small mt-3">Criar uma conta</a>
+                        <a href="#" class="d-block small">Página de Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="bibliotecas/jquery/jquery.min.js"></script>
+    <script src="bibliotecas/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bibliotecas/jquery-easing/jquery.easing.min.js"></script>
+</body>
+
+</html>
+```
